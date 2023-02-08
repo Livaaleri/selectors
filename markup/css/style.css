@@ -1,0 +1,25 @@
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: rgb(210, 143, 19);
+    background-color: rgb(253, 236, 210);
+    font-weight: 400;
+    font-size: 105%;
+}
+
+#example {
+    background-color: blanchedalmond;
+    color: olivedrab;
+}
+
+.text {
+    color: brown;
+    background-color: blanchedalmond;
+}
+
+.underline {
+    text-decoration: underline;
+    color: rgb(46, 43, 226);
+}
