@@ -4,22 +4,54 @@ h1 {
 
 h2 {
     color: rgb(210, 143, 19);
-    background-color: rgb(253, 236, 210);
     font-weight: 400;
     font-size: 105%;
 }
 
-#example {
+h2, #example, .text, .text1 {
     background-color: blanchedalmond;
+}
+#example { 
     color: olivedrab;
 }
 
 .text {
     color: brown;
-    background-color: blanchedalmond;
 }
 
 .underline {
     text-decoration: underline;
     color: rgb(46, 43, 226);
+}
+
+.way {
+    font-weight: 800;
+    text-shadow: 2px 1px yellow ;
+}
+
+ul ol li {
+        margin: 10px;
+        font-style: italic;
+    
+}
+
+ol>li {
+    margin: 10px;
+   color: rgb(238, 139, 0);
+}
+
+
+li + li {
+    text-shadow: 1px 1px yellow;
+    text-decoration: underline wavy;
+}
+
+
+[href^="http"] {
+    color: purple;
+    font-weight: 600;
+}
+
+main ~ footer {
+    background-color: blanchedalmond;
 }
